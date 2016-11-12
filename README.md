@@ -1,2 +1,3 @@
 # github-api
-A personal practice of API Blueprint
+
+[API Blueprint](https://apiblueprint.org/) practice
