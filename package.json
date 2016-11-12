@@ -1,0 +1,14 @@
+{
+  "name": "github-api",
+  "description": "API Blueprint practice",
+  "author": "knt5",
+  "scripts": {
+    "dev": "aglio -i src/search.md --server",
+    "build": "cat src/*.md > mock/api.md; aglio -i mock/api.md -o public/api.html",
+    "mock": "drakov -f mock/api.md -p 3000"
+  },
+  "devDependencies": {
+    "aglio": "^2.3.0",
+    "drakov": "^1.0.1"
+  }
+}
